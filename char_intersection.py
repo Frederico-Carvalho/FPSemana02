@@ -1,0 +1,7 @@
+frase1 = (input(""))
+frase2 = (input(""))
+a = set(frase1.split())
+b = set(frase2.split())
+result = a.intersection(b)
+final_result = " ".join(result)
+print(str(final_result))
